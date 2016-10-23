@@ -1,0 +1,156 @@
+/*
+* this page will contain the main css code for the website
+*/
+
+
+/*
+Header 
+*/
+
+.business-header {
+    height: 150px;
+    background:url(../images/morocco_usa.PNG)center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	margin-left: 25px;
+	margin-right:25px;} 
+ 
+
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+/*content section
+*/
+
+.content1_fram{
+	border: 2px solid #D6D6D6;
+	border-style:ridge;
+	border-width:medium;
+	border-radius: 10px;
+	background-color:#D6D6D6;
+	margin-bottom:10px;
+	margin-top: 10px;
+	}
+
+/*side bar section
+*/
+.fram {
+	border-style: ridge;
+	border-radius: 3px;
+	border-width: 2px;
+	padding: 10px;
+	background-color:white;
+	margin-bottom:10px;
+	margin-top: 10px;
+	border-color:#00C0FD;
+}
+.fram_search {border-style: ridge;
+    border-radius: 3px;
+    border-width: 2px;
+    padding: 10px;
+    background-color:
+	#FFFFFF;
+	margin-bottom:10px;
+	margin-top: 10px;
+	border-color:#00C0FD;
+	}
+/*content section
+*/
+.thumbnail img {
+    width: 100%;
+}
+.news_header{
+	margin: 5px;
+border:2px solid #00C0FD;
+border-radius:5px;
+background-color:#FFFFFF;
+padding-left: 8px;}
+.news_content{
+	margin: 5px;
+border:2px solid #00C0FD;
+border-radius:5px;
+background-color:#FFFFFF;
+	
+}
+.pr_date{
+	color:#858585;
+	padding-left: 10px;
+	padding-top: 10px;}
+	.pr_text{
+		padding: 10px;
+		font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;}
+
+.news_date{
+	float:right;
+	padding-right: 8px;
+	}
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+/* side bar navigation menu
+*/
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+color: #fff;
+background-color: #428bca;
+}
+
+
+
+.nav-pills>li>a {
+border-radius: 0px;
+}
+
+a {
+color: #000;
+text-decoration: none;
+}
+
+a:hover {
+color: #000;
+text-decoration: none;
+}
+
+
+.nav-stacked>li+li {
+margin-top: 0px;
+margin-left: 0;
+border-bottom:1px solid #dadada;
+border-left:1px solid #dadada;
+border-right:1px solid #dadada;
+}
+
+.active2 {
+    border-right:4px solid #428bca;
+}
+/* content 2
+*/
+.catalog_a{
+	border-top: 6px solid blue;
+	border-bottom: 1px solid grey;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	background-color: white;}
+.image_align{
+	
+	padding-left: 25px;
+	}
+/*footer  section
+*/
+footer {
+    margin: 50px 0;
+}
